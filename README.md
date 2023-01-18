@@ -1,1 +1,2 @@
-# nodejs-News
+# nodejs-News 
+`PROJETO MOSTRA ALGUMAS NOTICIAS FORNECIDAS POR API`
