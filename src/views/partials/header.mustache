@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link rel="icon" type="image/png" href="" />
+</head>
+<body>
+    <header>
+        <div class="container menu">
+            <div class="logo"><abbr title="News From Everywhere">NFW</abbr></div>
+            <div class="menu-mobile">
+                <input onclick="{menuMobile()}" class="menu-input" type="checkbox">
+                <div class="menu-lines">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+            <nav>
+                <ul class="">
+                    <li class="{{#menu.business}}active{{/menu.business}}" ><a href="#">Business</a></li>
+                    <li  class="{{#menu.tws}}active{{/menu.tws}}"><a href="#">The Wall Street Journal</a></li>
+                    <li  class="{{#menu.tc}}active{{/menu.tc}}"><a href="#">TechCrunch</a></li>
+                    <li  class="{{#menu.tesla}}active{{/menu.tesla}}"><a href="#">Tesla</a></li>
+                    <li  class="{{#menu.apple}}active{{/menu.apple}}"><a href="#">Apple</a></li>
+                </ul>
+            </nav>
+            <div class="search">
+                <form method="GET" action="#">
+                    <input type="search" name="q" placeholder="Search..."/>
+                </form>
+            </div>
+        </div>
+    </header>
+<main>

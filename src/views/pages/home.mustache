@@ -1,0 +1,25 @@
+{{>partials/header}}
+<section>
+            <h1>{{title}}</h1>
+            {{#news}}
+            <div class="container-news">
+                <a id="#" href="#">
+                    <article class="news-article">
+                        <div class="news-article-img">
+                            <img src="https://picsum.photos/1280/720" alt="">
+                        </div>
+                        <div class="article-texts">
+                            <h2 class="news-article-title">Here comes the news' title.. etc etc etc etc</h2>
+                        <div class="article-info">
+                            <div class="article-date">17-12-2023</div>
+                            <div class="article-source">Source: The wall street</div>
+                        </div>
+                        <p class="article-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam nesciunt, fugiat ipsam doloribus magni voluptate? Quos soluta est exercitationem ex, velit quibusdam sapiente, autem sint accusamus, nihil sunt delectus corrupti.</p>
+                        </div>
+                    </article>
+                </a>
+            </div>
+            {{/news}}
+</section>
+
+{{>partials/footer}}
