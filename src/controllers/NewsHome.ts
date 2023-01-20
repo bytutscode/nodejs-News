@@ -40,7 +40,7 @@ export const tesla = (req: Request, res:Response)=>{
 export const apple = (req: Request, res:Response)=>{
     res.render('pages/home',{
         menu:makeMenuObject('apple'),
-        title:"Apple",
+        titlePage:"Apple",
         news:newsModel.getNews()
     })
 }
